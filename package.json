@@ -1,0 +1,21 @@
+{
+  "name": "swagger-jsdoc-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^7.0.0-rc.6"
+  },
+  "scripts": {
+    "start": "nodemon --watch src --watch main.js",
+    "export": "node main.js export > openapi.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
